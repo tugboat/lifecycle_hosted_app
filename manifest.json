@@ -1,0 +1,21 @@
+{
+  "name": "LifeCycle",
+  "description": "You shouldn't have to manage your project management tool.",
+  "manifest_version": 2,
+  "version": "1",
+  "app": {
+    "urls": [
+      "*://alpha.lifecycleapp.com"
+    ],
+    "launch": {
+      "web_url": "http://alpha.lifecycleapp.com"
+    }
+  },
+  "icons": {
+    "128": "work-lifecycle.png"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
